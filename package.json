@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "prettier": "^3.2.5",
-    "vite": "^5.4.12"
+    "vite": "^6.3.3"
   },
   "engines": {
     "node": ">=20.11.0"
