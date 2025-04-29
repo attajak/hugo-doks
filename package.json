@@ -5,10 +5,10 @@
   "author": "Hyas",
   "license": "MIT",
   "scripts": {
-    "create": "hugo new",
-    "dev": "hugo server --disableFastRender --noHTTPCache --bind=0.0.0.0 --baseURL='/'",
+    "create": "hugo new content",
+    "dev": "hugo server -D -E -F -M -N -O --disableFastRender --noHTTPCache --bind=0.0.0.0 --baseURL='http://localhost:1313/' --logLevel=info",
     "format": "prettier **/** -w -c",
-    "build": "hugo --minify --gc",
+    "build": "hugo --minify --gc --logLevel info",
     "preview": "vite preview --outDir public"
   },
   "dependencies": {

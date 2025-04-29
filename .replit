@@ -7,10 +7,10 @@ hidden = [".config"]
 requiredFiles = [".replit", "replit.nix", "go.mod", "go.sum", "package.json", "package-lock.json"]
 
 [nix]
-channel = "stable-24_05"
+channel = "stable-24_11"
 
 [unitTest]
-language = "nodejs"
+language = ["nodejs", "go"]
 
 [deployment]
 run = ["npm run build"]
