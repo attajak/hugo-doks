@@ -16,7 +16,7 @@
     "@hyas/images": "^3.2.0",
     "@hyas/inline-svg": "^1.1.0",
     "@hyas/seo": "^2.3.0",
-    "@tabler/icons": "^3.33.0",
+    "@tabler/icons": "^3.34.1",
     "gethyas": "^2.4.2"
   },
   "devDependencies": {
